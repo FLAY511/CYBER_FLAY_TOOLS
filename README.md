@@ -1,9 +1,9 @@
 # CYBER_FLAY_TOOLS
 
 Tools OSINT + Utilities by **CYBER FLAY**  
-Sudah fix error (bash compatibility + syntax).
+Final checked for bash compatibility and syntax. Do not modify features — only fixes for bash-run compatibility applied (shebang at top, escaped redirection-like arrows).
 
-## 🔧 Cara Pakai di Termux
+## Cara Pakai di Termux
 
 ```bash
 pkg update && pkg upgrade -y
@@ -14,16 +14,7 @@ chmod +x CYBER_FLAY_TOOLS.sh
 ./CYBER_FLAY_TOOLS.sh
 ```
 
-## ✨ Fitur
-- OSINT (domain, whois, DNS, subdomain, port scan, headers, tech detect)
-- Username checker (banyak platform)
-- Phone number lookup (basic + deep scan)
-- JSO helper
-- Utilities (cuaca, kalkulator, hash, encode/decode, speedtest, dll)
-- Dark web info
-- About menu
-
----
-
-⚠️ Gunakan hanya untuk **pembelajaran / testing legal**.  
-Author: **CYBER FLAY**
+## Catatan
+- Pastikan menjalankan `./CYBER_FLAY_TOOLS.sh` atau `bash CYBER_FLAY_TOOLS.sh`, jangan `sh`.
+- Beberapa fitur bergantung pada paket eksternal/API yang mungkin memiliki rate limit.
+- Penggunaan untuk pembelajaran dan testing dengan izin saja.

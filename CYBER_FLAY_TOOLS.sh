@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
-
 clear
 echo -e "\e[31m[LICENSE]\e[0m"
 echo -e "\e[33m   ____      _                ______ _             "
 echo -e "  / ___|   _| |__   ___ _ __ |  ____| |            "
 echo -e " | |  | | | | '_ \ / _ \ '_ \| |__  | | __ _ _   _ "
 echo -e " | |__| |_| | |_) |  __/ | | |  __| | |/ _` | | | |"
-echo -e "  \____\__, |_.__/ \___|_| |_|_|    |_|\__,_| |_| |"
-echo -e "       |___/                                 |_|  "
+echo -e " \____\__, |_.__/ \___|_| |_|_|    |_|\__,_| |_| |"
+echo -e "      |___/                                 |_|  "
 echo -e ""
 echo -e "\e[32m================= CYBER FLAY LOGIN =================\e[0m"
 echo -e "  1) LOGIN"
@@ -33,7 +32,6 @@ else
 fi
 clear
 
-#!/usr/bin/env bash
 # CYBER FLAY v1.0 (SAFE) — Full features package (OSINT optimal, username check, phone lookup, JSO helper, utilities)
 # SAFE edition: excludes defacement/exploit automation. Use only for legal/authorized testing & education.
 
